@@ -210,7 +210,7 @@ nav a:hover {
   animation: logo 3s;
 }
 .Main:hover {
-  box-shadow: inset 10px 25px 30px rgba(226, 7, 135, 0.5);
-  -webkit-animation: Main 1s;
-  animation: Main 1s;
+  box-shadow: inset 20px 30px 20px rgba(7, 66, 105, 0.5);
+  transition-property: background-color, color, border;
+  transition-duration: 5s, 1s, 2s;
 }
