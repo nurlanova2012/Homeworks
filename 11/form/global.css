@@ -161,7 +161,7 @@ p {
   box-shadow: 0 0 4px white;
 }
 .subform input[type="submit"]:hover {
-  background-color: turquoise;
+  background-color: rgb(159, 226, 219);
 }
 .subform select {
   font-size: 1.2em;
