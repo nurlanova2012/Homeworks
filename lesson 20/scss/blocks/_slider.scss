@@ -1,0 +1,89 @@
+@import "../vars";
+
+.slider {
+  background-color: $secondary-color;
+
+  &__inner {
+    padding-top: 170px;
+    padding-bottom: 70px;
+  }
+
+  &__item-inner {
+    position: relative;
+    display: flex;
+  }
+  &__text {
+    width: 50%;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: $dark;
+  }
+  &__promo {
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: $dark;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__price {
+    position: absolute;
+    max-width: 255px;
+    right: 0;
+  }
+
+  &__old-price,
+  &__new-price {
+    display: block;
+  }
+  &__new-price {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #d84033;
+  }
+  &__old-price {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: $dark;
+  }
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .slick-dots button {
+    font-size: 0;
+    border: none;
+    width: 40px;
+    height: 7px;
+    margin-right: 15px;
+    background-color: #cecece;
+  }
+  .slick-active button {
+    background-color: $accent-color;
+  }
+}
