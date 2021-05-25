@@ -11,12 +11,11 @@
   &__item-inner {
     position: relative;
     display: flex;
-  }
-  &__text {
-    width: 50%;
+    justify-content: space-between;
   }
 
-  &__title {
+  &__item-title {
+    margin: 0 0 35px 0;
     font-family: $main-font;
     font-weight: normal;
     font-size: 30px;
@@ -24,17 +23,23 @@
     letter-spacing: 0.02em;
     color: $dark;
   }
-  &__promo {
+
+  &__item-text {
+    margin: 0 0 55px 0;
     font-family: $main-font;
-    font-weight: bold;
+    font-style: Bold;
     font-size: 55px;
     line-height: 67px;
-    letter-spacing: 0.04em;
+    letter-spacing: 4%;
     color: $dark;
   }
-
-  &__img {
+  &__btn {
+    position: relative;
+    margin-top: 55px;
+  }
+  &__column {
     width: 50%;
+    margin-bottom: 130px;
   }
 
   &__price {

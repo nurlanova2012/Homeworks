@@ -1,0 +1,82 @@
+@import "../vars";
+
+.footer {
+  &__info {
+    padding-top: 73px;
+    padding-bottom: 78px;
+    background-color: $accent-dark;
+    color: $light;
+  }
+  &__inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 2fr;
+    grid-gap: "";
+    text-align: left;
+  }
+
+  &__text {
+    margin-right: 125px;
+    width: 200px;
+    height: 88px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &__column {
+    margin-right: 84px;
+  }
+
+  &__categories {
+    width: 125px;
+    height: 155px;
+    margin-right: 76px;
+  }
+  &__links {
+    width: 137px;
+  }
+
+  & h3 {
+    margin: 10px 0 20px 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+  }
+  & li {
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  & ul a {
+    text-decoration: none;
+    color: $footer-color;
+  }
+
+  &__copy-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__copy p {
+    width: 50%;
+  }
+  &__copy p:last-child {
+    text-align: right;
+  }
+  &__policy {
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: $accent-dark;
+  }
+}

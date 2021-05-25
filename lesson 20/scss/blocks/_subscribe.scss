@@ -1,0 +1,43 @@
+@import "../vars";
+.subscribe {
+  &__inner {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 575px 475px;
+    grid-gap: 60px;
+    align-content: center;
+  }
+
+  &__title {
+    margin: 0;
+    text-align: left;
+    width: 575px;
+    height: 37px;
+  }
+  &__email {
+    width: 255px;
+    height: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2%;
+    color: $info-color;
+    background-color: $secondary-color;
+    border: none;
+    padding: 13px 164px 12px 20px;
+    margin-right: 35px;
+    text-align: left;
+  }
+
+  &__btn {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 12px 14px;
+    border: none;
+    cursor: pointer;
+  }
+}

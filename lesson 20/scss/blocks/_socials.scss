@@ -1,0 +1,32 @@
+@import "../vars";
+
+.socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    padding: 10px 0;
+  }
+
+  &__link {
+    padding-left: 30px;
+    position: relative;
+  }
+  &__link::before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/vk.svg);
+    background-repeat: no-repeat;
+  }
+  &__link--FB::before {
+    background-image: url(../../images/fb.svg);
+  }
+  &__link--INS::before {
+    background-image: url(../../images/ins.svg);
+  }
+}
