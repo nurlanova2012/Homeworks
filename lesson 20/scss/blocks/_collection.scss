@@ -8,11 +8,11 @@
   &__title {
     margin: 0 0 100px 0;
     font-family: $main-font;
-    font-style: Bold;
+    font-style: normal;
     font-size: 36px;
     line-height: 44px;
     text-transform: uppercase;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: $accent-dark;
     text-align: center;
   }

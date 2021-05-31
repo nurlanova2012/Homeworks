@@ -27,10 +27,11 @@
   &__item-text {
     margin: 0 0 55px 0;
     font-family: $main-font;
-    font-style: Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 55px;
     line-height: 67px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: $dark;
   }
   &__btn {

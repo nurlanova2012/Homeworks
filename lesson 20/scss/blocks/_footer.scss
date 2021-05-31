@@ -10,7 +10,6 @@
   &__inner {
     display: grid;
     grid-template-columns: 3fr 2fr 2fr 2fr 2fr;
-    grid-gap: "";
     text-align: left;
   }
 
@@ -37,6 +36,7 @@
 
   & h3 {
     margin: 10px 0 20px 0;
+    padding-left: 50px;
     font-family: $main-font;
     font-style: normal;
     font-weight: 700;
@@ -62,10 +62,18 @@
   &__copy-inner {
     display: flex;
     justify-content: space-between;
+    padding-top: 41px;
+    padding-bottom: 23px;
   }
 
   &__copy p {
     width: 50%;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: $accent-dark;
   }
   &__copy p:last-child {
     text-align: right;

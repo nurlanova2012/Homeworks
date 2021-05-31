@@ -10,10 +10,11 @@
   }
 
   &__link {
-    padding-left: 30px;
+    padding-left: 65px;
     position: relative;
   }
   &__link::before {
+    margin-left: 40px;
     position: absolute;
     top: 3px;
     left: 0;
